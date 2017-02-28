@@ -32,7 +32,7 @@ function F = WritePreFeko(filename, directory)
 			print_usage ();
 	end
 	% Set default fields
-	F.header = [];
+	F.header = '';
 	F.IP = [];
 	F.FM= [];
 	F.vars=[];

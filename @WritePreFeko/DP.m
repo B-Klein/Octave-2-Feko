@@ -29,7 +29,7 @@ function F = DP(F, name, x, y, z, NurbW)
 	if ~ischar(x), x = num2str(x,writepr()); else x = ['#' x]; end
 	if ~ischar(y), y = num2str(y,writepr()); else y = ['#' y]; end
 	if ~ischar(z), z = num2str(z,writepr()); else z = ['#' z]; end
-	if ~exist('NurbW'), NurbW=[];elseif ~ischar(NurbW), NurbW = num2str(NurbW); else NurbW = ['#' NurbW]; end
+	if ~exist('NurbW'), NurbW='';elseif ~ischar(NurbW), NurbW = num2str(NurbW); else NurbW = ['#' NurbW]; end
 
 	if length(F.DP), ind = size(F.DP)(2)+1; else ind =1; end
 

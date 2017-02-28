@@ -65,10 +65,10 @@ function F = BQ(F,s1,s2,s3,s4,LA, varargin)
 % 		if ~ischar(d), d = num2str(d); else d = ['#' d]; end
 		endvec = [' :  : ' a ' : ' b ' : ' c ' : ' d];
 	else
-		endvec = [];
+		endvec = '';
 	end
 
 	try, ind = size(F.BQ)(2)+1; catch, ind=1; end
 
-	if exist('LA') && ~isempty(LA), F.BQ{ind} = ['LA: ' LA]; ind=ind+1; end % adds a label
+	if ~exist('LA') && ~isempty(LA), F.BQ{ind} = ['LA: ' LA]; ind=ind+1; end % adds a label
 	F.BQ{ind} = ['BQ: ' s1 ' : ' s2 ' : ' s3 ' : ' s4 endvec];
