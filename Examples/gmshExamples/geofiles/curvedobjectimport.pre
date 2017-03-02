@@ -1,0 +1,775 @@
+** PREFEKO input file generated in Octave on: 2016-12-8 @ 9:49:8 Testing gmsh to feko
+
+** NOTES
+** Testing of gmsh to feko
+** END OF NOTES
+
+
+
+
+** Mesh parameters
+IP:  :  :  :  :  :  : 1 :  :  : 
+
+** Define points
+DP: test[1] :  :  :  :  : 0 : 0 : 0 : 
+DP: test[2] :  :  :  :  : 0.41336745441971 : 0.027277393194555 : 0 : 
+DP: test[3] :  :  :  :  : 0.82673490883942 : 0.10836551659873 : 0 : 
+DP: test[4] :  :  :  :  : 1.2401023632591 : 0.24105249758702 : 0 : 
+DP: test[5] :  :  :  :  : 1.6534698176788 : 0.42171898120721 : 0 : 
+DP: test[6] :  :  :  :  : 2.0668372720985 : 0.64543685674852 : 0 : 
+DP: test[7] :  :  :  :  : 2.4802047265183 : 0.90610368375515 : 0 : 
+DP: test[8] :  :  :  :  : 2.893572180938 : 1.1966091506941 : 0 : 
+DP: test[9] :  :  :  :  : 3.3069396353577 : 1.5090290257184 : 0 : 
+DP: test[10] :  :  :  :  : 3.7203070897774 : 1.8348413090553 : 0 : 
+DP: test[11] :  :  :  :  : 4.1336745441971 : 2.1651586909447 : 0 : 
+DP: test[12] :  :  :  :  : 4.5470419986168 : 2.4909709742816 : 0 : 
+DP: test[13] :  :  :  :  : 4.9604094530365 : 2.8033908493059 : 0 : 
+DP: test[14] :  :  :  :  : 5.3737769074562 : 3.0938963162448 : 0 : 
+DP: test[15] :  :  :  :  : 5.7871443618759 : 3.3545631432515 : 0 : 
+DP: test[16] :  :  :  :  : 6.2005118162956 : 3.5782810187928 : 0 : 
+DP: test[17] :  :  :  :  : 6.6138792707154 : 3.758947502413 : 0 : 
+DP: test[18] :  :  :  :  : 7.0272467251351 : 3.8916344834013 : 0 : 
+DP: test[19] :  :  :  :  : 7.4406141795548 : 3.9727226068054 : 0 : 
+DP: test[20] :  :  :  :  : 7.8539816339745 : 4 : 0 : 
+DP: test[21] :  :  :  :  : 7.8539816339745 : 0 : 0 : 
+DP: test[22] :  :  :  :  : 2.6868884537276 : 1.0513564172242 : 0 : 
+DP: test[23] :  :  :  :  : 3.1002559081473 : 1.3528190882059 : 0 : 
+DP: test[24] :  :  :  :  : 3.5136233625671 : 1.6719351673865 : 0 : 
+DP: test[25] :  :  :  :  : 3.9269908169869 : 1.9999999999997 : 0 : 
+DP: test[26] :  :  :  :  : 4.3403582714061 : 2.3280648326125 : 0 : 
+DP: test[27] :  :  :  :  : 4.7537257258261 : 2.6471809117934 : 0 : 
+DP: test[28] :  :  :  :  : 5.1670931802458 : 2.948643582775 : 0 : 
+DP: test[29] :  :  :  :  : 7.8539816339745 : 3.499999999998 : 0 : 
+DP: test[30] :  :  :  :  : 7.8539816339745 : 3.0000000000014 : 0 : 
+DP: test[31] :  :  :  :  : 7.8539816339745 : 2.5000000000049 : 0 : 
+DP: test[32] :  :  :  :  : 7.8539816339745 : 2.0000000000082 : 0 : 
+DP: test[33] :  :  :  :  : 7.8539816339745 : 1.5000000000062 : 0 : 
+DP: test[34] :  :  :  :  : 7.8539816339745 : 1.0000000000042 : 0 : 
+DP: test[35] :  :  :  :  : 7.8539816339745 : 0.50000000000208 : 0 : 
+DP: test[36] :  :  :  :  : 7.3631077818519 : 0 : 0 : 
+DP: test[37] :  :  :  :  : 6.8722339297295 : 0 : 0 : 
+DP: test[38] :  :  :  :  : 6.3813600776073 : 0 : 0 : 
+DP: test[39] :  :  :  :  : 5.8904862254858 : 0 : 0 : 
+DP: test[40] :  :  :  :  : 5.3996123733637 : 0 : 0 : 
+DP: test[41] :  :  :  :  : 4.9087385212418 : 0 : 0 : 
+DP: test[42] :  :  :  :  : 4.4178646691194 : 0 : 0 : 
+DP: test[43] :  :  :  :  : 3.926990816998 : 0 : 0 : 
+DP: test[44] :  :  :  :  : 3.4361169648731 : 0 : 0 : 
+DP: test[45] :  :  :  :  : 2.9452431127483 : 0 : 0 : 
+DP: test[46] :  :  :  :  : 2.4543692606238 : 0 : 0 : 
+DP: test[47] :  :  :  :  : 1.963495408499 : 0 : 0 : 
+DP: test[48] :  :  :  :  : 1.4726215563741 : 0 : 0 : 
+DP: test[49] :  :  :  :  : 0.9817477042493 : 0 : 0 : 
+DP: test[50] :  :  :  :  : 0.49087385212448 : 0 : 0 : 
+DP: test[51] :  :  :  :  : 6.2073840802667 : 1.6781301513864 : 0 : 
+DP: test[52] :  :  :  :  : 5.0151342786325 : 1.2593911444048 : 0 : 
+DP: test[53] :  :  :  :  : 4.1556527914412 : 1.0699397650628 : 0 : 
+DP: test[54] :  :  :  :  : 5.371235680843 : 2.0449823144781 : 0 : 
+DP: test[55] :  :  :  :  : 6.7243361323812 : 2.625583891532 : 0 : 
+DP: test[56] :  :  :  :  : 5.9336893243496 : 2.5984268651899 : 0 : 
+DP: test[57] :  :  :  :  : 3.4205236025684 : 0.71422991640325 : 0 : 
+DP: test[58] :  :  :  :  : 6.910787390424 : 0.96438345170742 : 0 : 
+DP: test[59] :  :  :  :  : 5.8184125379496 : 0.88381096292116 : 0 : 
+DP: test[60] :  :  :  :  : 4.6858288869633 : 1.7386167974681 : 0 : 
+DP: test[61] :  :  :  :  : 7.0463494565942 : 1.831555917533 : 0 : 
+DP: test[62] :  :  :  :  : 4.920185046448 : 2.2014999732585 : 0 : 
+DP: test[63] :  :  :  :  : 5.284808694579 : 2.5143819757835 : 0 : 
+DP: test[64] :  :  :  :  : 4.6349591460361 : 0.6824316308239 : 0 : 
+DP: test[65] :  :  :  :  : 2.8816884308799 : 0.55978074008962 : 0 : 
+DP: test[66] :  :  :  :  : 5.6136948713489 : 1.4970093762791 : 0 : 
+DP: test[67] :  :  :  :  : 3.6877803355688 : 1.1985260252392 : 0 : 
+DP: test[68] :  :  :  :  : 4.1148213123374 : 1.5530402633707 : 0 : 
+DP: test[69] :  :  :  :  : 7.1453849370393 : 3.182695317758 : 0 : 
+DP: test[70] :  :  :  :  : 5.882044505675 : 2.0643589185961 : 0 : 
+DP: test[71] :  :  :  :  : 6.4533940763751 : 2.2369881900868 : 0 : 
+DP: test[72] :  :  :  :  : 5.3461354033168 : 0.75202665669694 : 0 : 
+DP: test[73] :  :  :  :  : 6.3619119802652 : 2.9995104990612 : 0 : 
+DP: test[74] :  :  :  :  : 6.3876076430549 : 0.61163359662037 : 0 : 
+DP: test[75] :  :  :  :  : 3.9593734533503 : 0.54630125298988 : 0 : 
+DP: test[76] :  :  :  :  : 5.6607233877823 : 2.812445910407 : 0 : 
+DP: test[77] :  :  :  :  : 5.0061876111425 : 1.6612696119085 : 0 : 
+DP: test[78] :  :  :  :  : 4.5109178065123 : 1.2998065349405 : 0 : 
+DP: test[79] :  :  :  :  : 6.2689565621478 : 1.1438382469382 : 0 : 
+DP: test[80] :  :  :  :  : 7.2842018154694 : 2.3703410172797 : 0 : 
+DP: test[81] :  :  :  :  : 6.6975763364803 : 1.4452982491916 : 0 : 
+DP: test[82] :  :  :  :  : 3.1929227894808 : 1.015956552945 : 0 : 
+DP: test[83] :  :  :  :  : 7.3437988673847 : 1.4335662082604 : 0 : 
+DP: test[84] :  :  :  :  : 7.2863275259304 : 0.56633597867966 : 0 : 
+DP: test[85] :  :  :  :  : 2.4949840071204 : 0.49447657053163 : 0 : 
+DP: test[86] :  :  :  :  : 4.6514142317875 : 2.1421622991457 : 0 : 
+DP: test[87] :  :  :  :  : 4.2383318046157 : 1.8131495296149 : 0 : 
+DP: test[88] :  :  :  :  : 3.790970366421 : 1.5306266026556 : 0 : 
+DP: test[89] :  :  :  :  : 5.0208855911141 : 2.5085358087481 : 0 : 
+DP: test[90] :  :  :  :  : 5.7557498257846 : 2.3180903965037 : 0 : 
+DP: test[91] :  :  :  :  : 5.5880669378412 : 0.40226394548552 : 0 : 
+DP: test[92] :  :  :  :  : 6.7275984568333 : 3.2983398278856 : 0 : 
+DP: test[93] :  :  :  :  : 5.9615226496279 : 2.9452056789119 : 0 : 
+DP: test[94] :  :  :  :  : 2.9342124848743 : 0.91910697660994 : 0 : 
+DP: test[95] :  :  :  :  : 5.3931721767067 : 1.1237408208681 : 0 : 
+DP: test[96] :  :  :  :  : 6.8267092495015 : 0.51191188102079 : 0 : 
+DP: test[97] :  :  :  :  : 3.3932126650656 : 1.2333700342358 : 0 : 
+DP: test[98] :  :  :  :  : 5.6312451127621 : 1.8565752066151 : 0 : 
+DP: test[99] :  :  :  :  : 7.4627588289204 : 2.8424444642709 : 0 : 
+DP: test[100] :  :  :  :  : 3.7551614293852 : 0.86340700514086 : 0 : 
+DP: test[101] :  :  :  :  : 4.7328536843306 : 1.1224488472945 : 0 : 
+DP: test[102] :  :  :  :  : 6.347143756598 : 2.5852597758296 : 0 : 
+DP: test[103] :  :  :  :  : 3.1876015725408 : 0.37143586024906 : 0 : 
+DP: test[104] :  :  :  :  : 6.0019927050745 : 1.3244574503073 : 0 : 
+DP: test[105] :  :  :  :  : 6.8625978991815 : 2.2666447033611 : 0 : 
+DP: test[106] :  :  :  :  : 4.2770327689939 : 0.73414447651603 : 0 : 
+DP: test[107] :  :  :  :  : 7.4745037711979 : 1.7621250756359 : 0 : 
+DP: test[108] :  :  :  :  : 7.3010263487229 : 3.5901400476833 : 0 : 
+DP: test[109] :  :  :  :  : 2.7104881156931 : 0.79810179643989 : 0 : 
+DP: test[110] :  :  :  :  : 6.5611818981833 : 1.8359327293967 : 0 : 
+DP: test[111] :  :  :  :  : 5.0822138240888 : 0.43796497367762 : 0 : 
+DP: test[112] :  :  :  :  : 5.3830845208418 : 2.7419692394802 : 0 : 
+DP: test[113] :  :  :  :  : 3.9778187535407 : 1.2940220513803 : 0 : 
+DP: test[114] :  :  :  :  : 4.8281054782522 : 1.9448471737167 : 0 : 
+DP: test[115] :  :  :  :  : 3.6140807154741 : 0.39537466032776 : 0 : 
+DP: test[116] :  :  :  :  : 4.7405160347466 : 1.456445561923 : 0 : 
+DP: test[117] :  :  :  :  : 4.7383510967955 : 2.3802801480143 : 0 : 
+DP: test[118] :  :  :  :  : 5.1938805119479 : 2.260528582744 : 0 : 
+DP: test[119] :  :  :  :  : 3.9857908899026 : 1.7829775741292 : 0 : 
+DP: test[120] :  :  :  :  : 3.5380860536057 : 1.4283327666528 : 0 : 
+DP: test[121] :  :  :  :  : 5.2760240756237 : 1.4546550234593 : 0 : 
+DP: test[122] :  :  :  :  : 5.7019503989954 : 3.0684680664897 : 0 : 
+DP: test[123] :  :  :  :  : 5.1122524147272 : 1.9785009295473 : 0 : 
+DP: test[124] :  :  :  :  : 4.3599954156559 : 2.0905847424682 : 0 : 
+DP: test[125] :  :  :  :  : 6.107426288808 : 0.43683862633344 : 0 : 
+DP: test[126] :  :  :  :  : 7.4395760540574 : 1.0372650044218 : 0 : 
+DP: test[127] :  :  :  :  : 4.418130554826 : 1.5892748410749 : 0 : 
+DP: test[128] :  :  :  :  : 4.3162450466559 : 0.37489893044399 : 0 : 
+DP: test[129] :  :  :  :  : 6.0985762768383 : 2.293437835498 : 0 : 
+DP: test[130] :  :  :  :  : 3.1233897760688 : 0.71610200925937 : 0 : 
+DP: test[131] :  :  :  :  : 5.340481922595 : 1.7514166039422 : 0 : 
+DP: test[132] :  :  :  :  : 5.1600837342026 : 2.6992998420692 : 0 : 
+DP: test[133] :  :  :  :  : 6.8616283454068 : 2.9700252334399 : 0 : 
+DP: test[134] :  :  :  :  : 6.1889464432964 : 1.97971719474 : 0 : 
+DP: test[135] :  :  :  :  : 6.9539850352049 : 3.5500538960925 : 0 : 
+DP: test[136] :  :  :  :  : 7.5365669907172 : 3.3020442803824 : 0 : 
+DP: test[137] :  :  :  :  : 5.9208846197373 : 1.7333747163207 : 0 : 
+DP: test[138] :  :  :  :  : 4.6765324948209 : 0.29291565328055 : 0 : 
+DP: test[139] :  :  :  :  : 5.0291229071943 : 0.90952896889675 : 0 : 
+DP: test[140] :  :  :  :  : 3.4899201644138 : 1.0050979067928 : 0 : 
+DP: test[141] :  :  :  :  : 2.7374119111523 : 0.26012536600341 : 0 : 
+DP: test[142] :  :  :  :  : 4.2522658354583 : 1.316738588828 : 0 : 
+DP: test[143] :  :  :  :  : 5.7068180727699 : 1.2072546525939 : 0 : 
+DP: test[144] :  :  :  :  : 6.5173844499663 : 0.9937243597044 : 0 : 
+DP: test[145] :  :  :  :  : 6.0860965295283 : 3.2323909521552 : 0 : 
+DP: test[146] :  :  :  :  : 5.4627177082294 : 2.3004739087721 : 0 : 
+DP: test[147] :  :  :  :  : 2.1266311532041 : 0.31232648169747 : 0 : 
+DP: test[148] :  :  :  :  : 5.6205985666588 : 2.116896148993 : 0 : 
+DP: test[149] :  :  :  :  : 7.1012466067228 : 2.7003884582002 : 0 : 
+DP: test[150] :  :  :  :  : 4.4272803387954 : 1.037584973911 : 0 : 
+DP: test[151] :  :  :  :  : 6.144494508904 : 0.84985130929273 : 0 : 
+DP: test[152] :  :  :  :  : 7.0155162321884 : 1.3132765256491 : 0 : 
+DP: test[153] :  :  :  :  : 7.5048258744845 : 0.28133878058233 : 0 : 
+DP: test[154] :  :  :  :  : 6.5415560908129 : 0.31031057001431 : 0 : 
+DP: test[155] :  :  :  :  : 5.5801289102611 : 2.5476313826894 : 0 : 
+DP: test[156] :  :  :  :  : 4.5274322028524 : 2.2864125993045 : 0 : 
+DP: test[157] :  :  :  :  : 7.1178256933675 : 0.27522886793332 : 0 : 
+DP: test[158] :  :  :  :  : 7.5026036622421 : 2.0928044020923 : 0 : 
+DP: test[159] :  :  :  :  : 6.3785498493242 : 1.4108750317271 : 0 : 
+DP: test[160] :  :  :  :  : 4.1289566942716 : 1.9703741074313 : 0 : 
+DP: test[161] :  :  :  :  : 3.919851903878 : 1.0523591741928 : 0 : 
+DP: test[162] :  :  :  :  : 4.0228462094542 : 0.83590102414093 : 0 : 
+DP: test[163] :  :  :  :  : 4.5025372056575 : 1.9095507360033 : 0 : 
+DP: test[164] :  :  :  :  : 5.4878550878752 : 2.9267051193175 : 0 : 
+DP: test[165] :  :  :  :  : 6.4003993817957 : 3.3238055813057 : 0 : 
+DP: test[166] :  :  :  :  : 7.6022685616715 : 3.6969858525828 : 0 : 
+DP: test[167] :  :  :  :  : 6.1554139547497 : 2.7716319084538 : 0 : 
+
+
+
+
+
+
+
+** Triangle sections
+LA: PEC
+BT: test[83] : test[33] : test[126] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[8] : test[23] : test[82] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[14] : test[15] : test[122] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[126] : test[33] : test[34] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[59] : test[72] : test[95] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[60] : test[114] : test[77] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[59] : test[91] : test[72] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[40] : test[111] : test[91] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[72] : test[91] : test[111] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[55] : test[73] : test[133] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[6] : test[7] : test[85] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[55] : test[102] : test[73] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[144] : test[79] : test[159] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[59] : test[143] : test[104] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[60] : test[77] : test[116] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[79] : test[151] : test[104] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[48] : test[5] : test[47] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[7] : test[109] : test[85] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[81] : test[144] : test[159] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[59] : test[104] : test[151] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[56] : test[155] : test[76] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[55] : test[71] : test[102] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[23] : test[97] : test[82] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[58] : test[144] : test[81] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[48] : test[4] : test[5] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[35] : test[84] : test[126] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[61] : test[105] : test[80] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[58] : test[126] : test[84] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[56] : test[129] : test[90] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[58] : test[152] : test[126] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[70] : test[90] : test[129] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[61] : test[80] : test[158] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[55] : test[105] : test[71] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[73] : test[92] : test[133] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[64] : test[139] : test[111] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[61] : test[83] : test[152] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[62] : test[86] : test[117] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[56] : test[76] : test[93] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[31] : test[80] : test[99] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[65] : test[103] : test[141] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[43] : test[115] : test[75] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[10] : test[88] : test[24] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[61] : test[152] : test[81] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[8] : test[82] : test[94] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[72] : test[111] : test[139] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[56] : test[90] : test[155] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[52] : test[116] : test[77] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[58] : test[84] : test[96] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[13] : test[89] : test[27] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[59] : test[125] : test[91] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[9] : test[97] : test[23] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[83] : test[126] : test[152] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[78] : test[116] : test[101] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[64] : test[128] : test[106] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[86] : test[156] : test[117] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[34] : test[35] : test[126] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[57] : test[100] : test[115] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[61] : test[107] : test[83] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[59] : test[151] : test[125] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[64] : test[150] : test[101] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[58] : test[81] : test[152] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[66] : test[137] : test[104] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[64] : test[106] : test[150] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[60] : test[116] : test[127] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[43] : test[75] : test[128] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[68] : test[119] : test[87] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[61] : test[81] : test[110] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[52] : test[77] : test[121] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[52] : test[101] : test[116] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[14] : test[164] : test[28] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[65] : test[85] : test[109] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[31] : test[158] : test[80] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[80] : test[105] : test[149] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[55] : test[149] : test[105] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[64] : test[138] : test[128] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[66] : test[98] : test[137] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[33] : test[83] : test[107] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[35] : test[153] : test[84] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[61] : test[110] : test[105] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[75] : test[115] : test[100] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[87] : test[119] : test[160] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[78] : test[127] : test[116] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[59] : test[95] : test[143] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[61] : test[158] : test[107] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[28] : test[164] : test[112] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[40] : test[41] : test[111] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[39] : test[40] : test[91] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[45] : test[141] : test[103] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[62] : test[89] : test[118] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[5] : test[147] : test[47] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[30] : test[31] : test[99] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[43] : test[44] : test[115] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[62] : test[114] : test[86] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[71] : test[105] : test[110] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[65] : test[109] : test[94] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[10] : test[119] : test[88] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[8] : test[94] : test[22] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[27] : test[89] : test[117] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[24] : test[88] : test[120] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[17] : test[92] : test[165] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[63] : test[118] : test[89] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[67] : test[100] : test[140] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[5] : test[6] : test[147] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[62] : test[117] : test[89] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[56] : test[102] : test[129] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[93] : test[122] : test[145] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[38] : test[39] : test[125] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[58] : test[96] : test[144] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[69] : test[99] : test[149] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[68] : test[87] : test[127] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[16] : test[17] : test[165] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[86] : test[114] : test[163] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[74] : test[144] : test[96] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[18] : test[19] : test[108] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[65] : test[130] : test[103] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[44] : test[45] : test[103] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[38] : test[125] : test[154] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[69] : test[136] : test[99] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[30] : test[99] : test[136] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[13] : test[132] : test[89] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[52] : test[95] : test[139] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[65] : test[94] : test[130] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[69] : test[149] : test[133] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[67] : test[140] : test[97] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[17] : test[135] : test[92] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[32] : test[33] : test[107] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[87] : test[163] : test[127] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[69] : test[92] : test[135] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[51] : test[110] : test[159] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[76] : test[122] : test[93] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[68] : test[88] : test[119] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[57] : test[103] : test[130] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[42] : test[43] : test[128] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[66] : test[131] : test[98] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[67] : test[120] : test[88] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[51] : test[104] : test[137] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[20] : test[29] : test[166] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[13] : test[28] : test[132] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[37] : test[154] : test[96] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[68] : test[113] : test[88] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[31] : test[32] : test[158] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[60] : test[163] : test[114] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[66] : test[95] : test[121] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[12] : test[27] : test[117] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[73] : test[165] : test[92] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[52] : test[121] : test[95] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[9] : test[120] : test[97] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[64] : test[101] : test[139] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[7] : test[22] : test[109] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[51] : test[134] : test[110] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[10] : test[25] : test[119] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[39] : test[91] : test[125] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[67] : test[88] : test[113] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[71] : test[129] : test[102] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[74] : test[154] : test[125] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[66] : test[121] : test[131] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[51] : test[159] : test[104] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[60] : test[127] : test[163] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[63] : test[89] : test[132] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[72] : test[139] : test[95] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[71] : test[110] : test[134] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[57] : test[115] : test[103] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[77] : test[114] : test[123] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[69] : test[133] : test[92] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[53] : test[150] : test[106] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[9] : test[24] : test[120] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[17] : test[18] : test[135] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[28] : test[112] : test[132] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[74] : test[125] : test[151] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[37] : test[96] : test[157] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[70] : test[148] : test[90] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[73] : test[102] : test[167] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[22] : test[94] : test[109] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[54] : test[131] : test[123] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[81] : test[159] : test[110] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[11] : test[26] : test[124] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[46] : test[147] : test[85] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[67] : test[161] : test[100] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[77] : test[123] : test[131] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[57] : test[82] : test[140] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[145] : test[122] : test[15] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[57] : test[130] : test[82] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[37] : test[38] : test[154] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[79] : test[104] : test[159] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[66] : test[143] : test[95] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[29] : test[30] : test[136] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[62] : test[118] : test[123] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[54] : test[98] : test[131] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[46] : test[47] : test[147] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[21] : test[153] : test[35] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[44] : test[103] : test[115] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[65] : test[141] : test[85] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[54] : test[148] : test[98] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[21] : test[36] : test[153] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[56] : test[167] : test[102] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[41] : test[42] : test[138] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[69] : test[135] : test[108] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[46] : test[85] : test[141] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[15] : test[16] : test[145] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[12] : test[117] : test[156] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[67] : test[97] : test[120] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[19] : test[20] : test[166] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[57] : test[140] : test[100] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[75] : test[106] : test[128] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[25] : test[160] : test[119] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[62] : test[123] : test[114] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[45] : test[46] : test[141] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[26] : test[156] : test[124] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[78] : test[101] : test[150] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[36] : test[37] : test[157] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[54] : test[123] : test[118] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[63] : test[112] : test[155] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[53] : test[106] : test[162] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[70] : test[137] : test[98] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[11] : test[124] : test[160] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[80] : test[149] : test[99] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[68] : test[127] : test[142] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[66] : test[104] : test[143] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[52] : test[139] : test[101] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[70] : test[98] : test[148] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[56] : test[93] : test[167] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[77] : test[131] : test[121] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[18] : test[108] : test[135] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[63] : test[132] : test[112] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[76] : test[155] : test[112] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[12] : test[156] : test[26] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[14] : test[122] : test[164] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[82] : test[97] : test[140] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[74] : test[96] : test[154] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[82] : test[130] : test[94] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[64] : test[111] : test[138] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[11] : test[160] : test[25] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[42] : test[128] : test[138] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[86] : test[124] : test[156] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[84] : test[157] : test[96] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[69] : test[108] : test[136] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[87] : test[160] : test[124] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[6] : test[85] : test[147] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[75] : test[162] : test[106] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[36] : test[157] : test[153] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[78] : test[142] : test[127] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[79] : test[144] : test[151] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[70] : test[134] : test[137] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[84] : test[153] : test[157] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[73] : test[93] : test[145] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[70] : test[129] : test[134] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[73] : test[167] : test[93] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[63] : test[155] : test[146] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[19] : test[166] : test[108] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[63] : test[146] : test[118] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[41] : test[138] : test[111] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[76] : test[164] : test[122] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[68] : test[142] : test[113] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[74] : test[151] : test[144] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[54] : test[118] : test[146] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[51] : test[137] : test[134] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[32] : test[107] : test[158] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[78] : test[150] : test[142] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[75] : test[100] : test[162] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[108] : test[166] : test[136] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[71] : test[134] : test[129] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[53] : test[142] : test[150] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[54] : test[146] : test[148] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[76] : test[112] : test[164] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[90] : test[146] : test[155] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[53] : test[113] : test[142] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[67] : test[113] : test[161] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[55] : test[133] : test[149] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[90] : test[148] : test[146] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[53] : test[161] : test[113] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[29] : test[136] : test[166] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[87] : test[124] : test[163] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[86] : test[163] : test[124] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[16] : test[165] : test[145] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[73] : test[145] : test[165] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[53] : test[162] : test[161] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[100] : test[161] : test[162] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[50] : test[1] : test[2] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[50] : test[2] : test[3] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[49] : test[3] : test[4] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[49] : test[50] : test[3] :  :  : 1 : 1 : 1
+LA: PEC
+BT: test[49] : test[4] : test[48] :  :  : 1 : 1 : 1
+
+
+
+
+
+
+
+
+
+** End Geometry
+EG
+
+
+
+
+
+
+
+
+
+
+** End
+EN
