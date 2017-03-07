@@ -1,7 +1,10 @@
 %  Creates a simple square object
 
 % You should have added the @WritePreFeko directory to your path, you might need to add
-% if from the base directory otherwise you might get class errors.
+% it from the base directory otherwise you might get class errors.
+
+% RUN THIS FROM THE Examples/FekoExamples/ directory
+% Otherwise set the Directory variable to the desired directory
 
 % Let get the current directory and 
 CurrentDirectory=pwd;
