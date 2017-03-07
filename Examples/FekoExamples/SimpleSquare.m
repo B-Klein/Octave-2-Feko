@@ -7,11 +7,11 @@
 CurrentDirectory=pwd;
 
 Filename='SimpleSquare.pre';
-Directory=[CurrentDirectory '/PreFiles/'];
+Directory=[CurrentDirectory '/PreFiles'];
 
 % Create the WritePreFeko Object with a filename and directory where we wish to save the
 % .pre file
-F=WritePreFeko(Filename, Directory);
+F=WritePreFeko(Filename, Directory)
 % Let's put in a comment including time stamping the file.
 F=header(F, 'Simple Square example');
 
