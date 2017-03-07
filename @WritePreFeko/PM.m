@@ -43,13 +43,13 @@ function F = PM(F,pnts, msh, varargin)
 		if ~ischar(Npnts), Npnts = num2str(Npnts); else Npnts = ['#' Npnts]; end
 		if length(varargin)<2,
 			% F = PM(F,pnts, msh, [Npnts])
-			if ~isempty(msh), msh = [' :  :  : #' msh]; else msh=[]; end
+			if ~isempty(msh), msh = [' :  :  : #' msh]; else msh=''; end
 			F.PM{ind} = ['PM: -1 : ' pnts ' : ' Npnts msh];
 		elseif length(varargin)<3
 			% F = PM(F,pnts, msh, [Npnts, LA])
 			LA = varargin{2};
 			if exist('LA') && ~isempty(LA), F.PM{ind} = ['LA: ' LA]; ind=ind+1; end % adds a label
-			if ~isempty(msh), msh = [' :  :  : #' msh]; else msh=[]; end
+			if ~isempty(msh), msh = [' :  :  : #' msh]; else msh=''; end
 			F.PM{ind} = ['PM: -1 : ' pnts ' : ' Npnts msh];
 		elseif length(varargin)<4
 			% F = PM(F,pnts, msh, [Npnts, ipnts, iNpnts])
